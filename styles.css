@@ -34,10 +34,8 @@ blockquote {
     margin: auto;
     font-size: 160%;
     background-color: lightgray;
+    border-left: 3px solid firebrick;
+    padding: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
-    border-left-style: solid;
-    border-color: Firebrick;
-    border-width: 3px;
-    padding: 30px;
 }
