@@ -1,12 +1,12 @@
 p {
-    font-family: "Times New Roman";
+    font-family: "Open Sans", sans-serif;
     color: #4d4d4d;
     letter-spacing: 2px;
     font-size: 20px;
 }
 
 a {
-    font-family: Serif;
+    font-family: "Open Sans", sans-serif;
     letter-spacing: 2px;
     font-size: 20px;
 
@@ -41,6 +41,7 @@ body {
 em {
     font-style: normal;
 }
+
 blockquote {
     width: 50%;
     margin: auto;
