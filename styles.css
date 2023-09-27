@@ -24,14 +24,23 @@ a:visited {
     color: red;
 }
 
+a:hover:visited {
+    color: purple;
+}
+
 body {
     max-width: 90%;
     margin:auto;
     background: linear-gradient(90deg, rgb(202, 119, 226), rgb(42, 114, 187));
+    background-image: URL("https://png.pngtree.com/thumb_back/fw800/background/20230110/pngtree-clear-sky-white-clouds-blue-sky-background-image_1506843.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom right;
 }
 
+em {
+    font-style: normal;
+}
 blockquote {
     width: 50%;
     margin: auto;
@@ -41,4 +50,71 @@ blockquote {
     padding: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
+    font-style: italic;
+}
+
+.villagers {
+    border-left: 3px solid red;
+}
+
+.farmer {
+    border-left: 3px solid blue;
+}
+
+q {
+    font-style: italic;
+}
+
+header > h1 {
+    background-color: yellow;
+}
+
+.good, .bad {
+    text-transform: capitalize;
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
+}
+
+tr:nth-child(odd) td{
+    background-color: grey;
+}
+
+tr:nth-child(even) td{
+    background-color: white;
+}
+
+li:first-child {
+    background-image: URL("bien.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 85%;
+}
+
+li:nth-child(2) {
+    background-image: URL("mal.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 85%;
+}
+
+li:nth-child(3) {
+    background-image: URL("chat.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 85%;
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
 }
